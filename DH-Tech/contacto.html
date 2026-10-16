@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacta a D.H Tech y consulta los registros ficticios del incidente digital.">
+  <title>Contacto y evidencias | D.H Tech</title><link rel="stylesheet" href="css/estilos.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html"><span class="logo-icon">⚡</span><span>D.H <b>Tech</b><small>REPARACIÓN ELECTRÓNICA</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav" id="mainNav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="historia.html">El misterio</a><a href="servicios.html">Servicios</a><a class="active" href="contacto.html">Contacto</a><button class="theme-toggle" id="themeToggle" type="button">◐ Tema oscuro</button></nav>
+</header>
+<main>
+  <section class="page-hero container"><p class="eyebrow">CANAL DE CONTACTO // 003</p><h1>Volvamos a <span class="gradient-text">conectarnos.</span></h1><p class="lead">Cuéntanos qué equipo necesitas revisar o qué información buscas. Este formulario es una demostración académica.</p></section>
+  <section class="container contact-layout section">
+    <div class="contact-copy"><p class="eyebrow">HABLEMOS</p><h2>Estamos listos para escucharte.</h2><p>D.H Tech es una empresa ficticia creada para esta práctica. No se reciben solicitudes reales mediante esta página.</p><div class="contact-line"><span>⌖</span><div><strong>Zona de referencia</strong><p>Bajo de Haina, San Cristóbal, República Dominicana</p></div></div><div class="contact-line"><span>⚡</span><div><strong>Horario de ejemplo</strong><p>Lunes a sábado · 9:00 a. m. – 6:00 p. m.</p></div></div></div>
+    <form class="contact-form" id="contactForm">
+      <label for="name">Nombre completo</label><input id="name" name="name" autocomplete="name" placeholder="Tu nombre" required>
+      <label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" placeholder="tu@correo.com" required>
+      <label for="device">Tipo de equipo</label><select id="device" name="device"><option>Celular o tableta</option><option>Computadora o laptop</option><option>Otro equipo electrónico</option><option>Consulta general</option></select>
+      <label for="message">Describe la consulta</label><textarea id="message" name="message" rows="4" placeholder="¿Qué problema presenta el equipo?" required></textarea>
+      <button class="btn btn-primary" type="submit">Enviar consulta ↗</button><p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </section>
+  <section class="container section"><div class="section-title left"><p class="eyebrow">PRUEBAS DEL INCIDENTE // FICTICIAS</p><h2>Fragmentos del <span class="gradient-text">archivo perdido.</span></h2><p>Estos registros son parte de la historia inventada para la tarea, no evidencias de un ataque real.</p></div>
+    <div class="evidence-grid">
+      <article class="evidence-card"><span class="evidence-label">EVIDENCIA A · 08:14</span><h3>Registro de acceso</h3><code>[08:14:03] sitio_principal: NO DISPONIBLE</code><p>La página no responde durante la historia.</p></article>
+      <article class="evidence-card"><span class="evidence-label">EVIDENCIA B · 10:32</span><h3>Nota del USB</h3><code>MENSAJE: REINVENTA TU PRESENCIA</code><p>Se encuentra una nota que inicia el protocolo de recuperación.</p></article>
+      <article class="evidence-card"><span class="evidence-label">EVIDENCIA C · DÍA 1</span><h3>Plan de recuperación</h3><code>BACKUP · ACCESOS · NUEVO SITIO</code><p>El equipo decide reconstruir y aplicar medidas preventivas.</p></article>
+    </div>
+  </section>
+</main>
+<footer class="footer"><a class="logo" href="index.html"><span class="logo-icon">⚡</span><span>D.H <b>Tech</b><small>REPARACIÓN ELECTRÓNICA</small></span></a><p>Reparamos tecnología. Reconstruimos confianza.</p><span class="footer-code">© <span class="year"></span> D.H TECH</span></footer>
+<button class="chat-launcher" id="chatLauncher" aria-label="Abrir asistente virtual">✳ <span>Asistente D.H Tech</span></button><section class="chat-panel" id="chatPanel" aria-label="Asistente virtual" hidden><div class="chat-header"><div><strong>D.H Bot ⚡</strong><small>Asistente virtual</small></div><button id="chatClose" aria-label="Cerrar asistente">×</button></div><div class="chat-messages" id="chatMessages" aria-live="polite"><p class="bot-message">¡Hola! Pregúntame por reparaciones, horarios o cómo contactarnos.</p></div><form class="chat-form" id="chatForm"><label class="sr-only" for="chatInput">Escribe tu pregunta</label><input id="chatInput" placeholder="Escribe tu pregunta..." autocomplete="off" required><button aria-label="Enviar mensaje">➤</button></form></section><div class="toast" id="secretToast" role="status" aria-live="polite">⚡ ¡Secreto desbloqueado! Código DHT-2026: la tecnología siempre puede volver a conectarse.</div>
+</body></html>

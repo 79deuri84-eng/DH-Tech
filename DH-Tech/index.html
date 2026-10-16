@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D.H Tech repara y recupera equipos electrónicos. Volvimos a conectarte.">
+  <title>D.H Tech | Volvimos a conectarte</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="error-screen" id="errorScreen" role="dialog" aria-modal="true" aria-labelledby="errorTitle">
+    <div class="error-box">
+      <div class="error-symbol">⚡</div>
+      <p class="eyebrow">ALERTA DEL SISTEMA // DHT-404</p>
+      <h1 id="errorTitle" class="glitch" data-text="SEÑAL PERDIDA">SEÑAL PERDIDA</h1>
+      <p>La presencia digital de D.H Tech no responde.</p>
+      <p class="terminal">¿Quieres iniciar el protocolo de recuperación?</p>
+      <button class="btn btn-primary" id="recoverButton">⟳ RECUPERAR CONEXIÓN</button>
+      <p class="micro">ERROR 404 · ORIGEN DESCONOCIDO · PROTOCOLO TR-01</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-icon">⚡</span><span>D.H <b>Tech</b><small>REPARACIÓN ELECTRÓNICA</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Navegación principal">
+      <a class="active" href="index.html">Inicio</a>
+      <a href="historia.html">El misterio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <button class="theme-toggle" id="themeToggle" type="button">◐ Tema oscuro</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot"></span> SISTEMA RESTAURADO · BAJO DE HAINA, RD</p>
+        <h1>Tu tecnología falla.<br><span class="gradient-text">Nosotros la rescatamos.</span></h1>
+        <p class="lead">Desaparecimos de Internet, pero no de nuestra misión. D.H Tech vuelve con una nueva identidad, atención cercana y soluciones para tus equipos electrónicos.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="servicios.html">Explorar servicios ↗</a>
+          <a class="btn btn-outline" href="historia.html">Descubrir el misterio</a>
+        </div>
+        <div class="stats">
+          <div><strong>01</strong><span>Nuevo comienzo</span></div>
+          <div><strong>RD</strong><span>Orgullo dominicano</span></div>
+          <div><strong>⚡</strong><span>Soluciones técnicas</span></div>
+        </div>
+      </div>
+      <div class="tech-art" aria-label="Ilustración decorativa de un circuito electrónico" role="img">
+        <div class="circuit circuit-a"></div><div class="circuit circuit-b"></div>
+        <div class="chip"><span>TR</span><small>SYSTEM ONLINE</small></div>
+        <span class="float-label label-a">DIAGNÓSTICO // OK</span>
+        <span class="float-label label-b">REPAIR_MODE.exe</span>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+      </div>
+    </section>
+
+    <div class="ticker"><div>DIAGNOSTICAR ✦ REPARAR ✦ RECONECTAR ✦ RENACER ✦ DIAGNOSTICAR ✦ REPARAR ✦ RECONECTAR ✦ RENACER ✦</div></div>
+
+    <section class="container section">
+      <div class="section-title">
+        <p class="eyebrow">NUEVA ETAPA // 001</p>
+        <h2>La tecnología merece <span class="gradient-text">una segunda oportunidad.</span></h2>
+        <p>Recuperamos la confianza con un servicio transparente y una presencia digital renovada.</p>
+      </div>
+      <div class="cards three">
+        <article class="card"><span class="card-icon">⌕</span><p class="card-kicker">01 / DIAGNÓSTICO</p><h3>Encontramos el problema</h3><p>Revisamos los síntomas del equipo y explicamos las posibles soluciones antes de continuar.</p><a class="text-link" href="servicios.html">Ver servicios →</a></article>
+        <article class="card"><span class="card-icon">⚙</span><p class="card-kicker">02 / REPARACIÓN</p><h3>Manos a la tecnología</h3><p>Atención a celulares, computadoras y otros equipos electrónicos según el tipo de avería.</p><a class="text-link" href="servicios.html">Qué reparamos →</a></article>
+        <article class="card"><span class="card-icon">⛨</span><p class="card-kicker">03 / PREVENCIÓN</p><h3>Protegemos el futuro</h3><p>Consejos para respaldar información, cuidar tus dispositivos y proteger tus cuentas.</p><a class="text-link" href="historia.html">Conoce el cambio →</a></article>
+      </div>
+    </section>
+
+    <section class="manifesto"><div class="container manifesto-inner"><p class="eyebrow">NUESTRO MENSAJE</p><h2>“La señal se perdió.<br><span class="gradient-text">La confianza volvió.”</span></h2><p>D.H Tech · Estamos aquí para reconectarte.</p><a class="btn btn-primary" href="contacto.html">Habla con nosotros ↗</a></div></section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="index.html"><span class="logo-icon">⚡</span><span>D.H <b>Tech</b><small>REPARACIÓN ELECTRÓNICA</small></span></a><p>Reparamos tecnología. Reconstruimos confianza.</p><span class="footer-code">© <span class="year"></span> D.H TECH · PROYECTO ACADÉMICO</span></footer>
+
+  <button class="chat-launcher" id="chatLauncher" aria-label="Abrir asistente virtual">✳ <span>Asistente D.H Tech</span></button>
+  <section class="chat-panel" id="chatPanel" aria-label="Asistente virtual" hidden>
+    <div class="chat-header"><div><strong>D.H Bot ⚡</strong><small>Asistente virtual</small></div><button id="chatClose" aria-label="Cerrar asistente">×</button></div>
+    <div class="chat-messages" id="chatMessages" aria-live="polite"><p class="bot-message">¡Hola! Soy D.H Bot. Pregúntame por reparaciones, horarios o cómo contactarnos.</p></div>
+    <form class="chat-form" id="chatForm"><label class="sr-only" for="chatInput">Escribe tu pregunta</label><input id="chatInput" placeholder="Escribe tu pregunta..." autocomplete="off" required><button aria-label="Enviar mensaje">➤</button></form>
+  </section>
+  <div class="toast" id="secretToast" role="status" aria-live="polite">⚡ ¡Secreto desbloqueado! Código DHT-2026: la tecnología siempre puede volver a conectarse.</div>
+</body>
+</html>
